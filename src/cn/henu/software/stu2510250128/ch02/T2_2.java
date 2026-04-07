@@ -1,13 +1,14 @@
 package cn.henu.software.stu2510250128.ch02;
-import  java.util.Scanner;
+
+import java.util.Scanner;
+
 public class T2_2 {
     public static void main(String[] args) {
         System.out.print("请输入出生年份：");
         Scanner scan = new Scanner(System.in);
-        int year=scan.nextInt();
+        int year = scan.nextInt();
         System.out.print("你的属相是：");
-        switch (year%12)
-        {
+        switch (year % 12) {
             case 0:
                 System.out.println("猴");
                 break;
